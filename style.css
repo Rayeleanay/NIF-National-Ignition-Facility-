@@ -55,7 +55,7 @@ nav a:hover, nav a.active {
 .hero p, .content p {
     font-size: 1.1rem;
     line-height: 1.7;
-    color: #9ca3af;
+    color: #eceff4;
     margin-bottom: 1.5rem;
 }
 
@@ -88,11 +88,11 @@ nav a:hover, nav a.active {
 }
 
 .btn:hover {
-    background-color: #0369a1;
+    background-color: #dae5eb;
 }
 
 footer {
-    background-color: #3b4f7a;
+    background-color: #4865a3;
     text-align: center;
     padding: 1rem;
     font-size: 0.9rem;
