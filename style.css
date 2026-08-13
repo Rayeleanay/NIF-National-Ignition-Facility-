@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #0b0f19;
+    background-color: #a3b3da;
     color: #e2e8f0;
     display: flex;
     flex-direction: column;
@@ -14,12 +14,12 @@ body {
 }
 
 header {
-    background-color: #111827;
+    background-color: #ced9f1;
     padding: 1.5rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid #1f2937;
+    border-bottom: 2px solid #5e81b3;
 }
 
 header h1 {
@@ -60,7 +60,7 @@ nav a:hover, nav a.active {
 }
 
 .card {
-    background-color: #1f2937;
+    background-color: #ccdffa;
     border-left: 4px solid #38bdf8;
     padding: 1.5rem;
     border-radius: 6px;
@@ -92,10 +92,10 @@ nav a:hover, nav a.active {
 }
 
 footer {
-    background-color: #111827;
+    background-color: #3b4f7a;
     text-align: center;
     padding: 1rem;
     font-size: 0.9rem;
     color: #6b7280;
-    border-top: 1px solid #1f2937;
+    border-top: 1px solid #468ff5;
 }
