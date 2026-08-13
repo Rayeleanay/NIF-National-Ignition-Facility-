@@ -6,25 +6,25 @@
 }
 
 body {
-    background-color: #a3b3da;
-    color: #e2e8f0;
+    background-color: #070d1c;
+    color: #051427;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
 header {
-    background-color: #ced9f1;
+    background-color: #082563;
     padding: 1.5rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid #5e81b3;
+    border-bottom: 2px solid #011c41;
 }
 
 header h1 {
     font-size: 1.5rem;
-    color: #38bdf8;
+    color: #144458;
 }
 
 nav a {
