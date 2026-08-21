@@ -7,7 +7,7 @@
 
 body {
     background-color: #070d1c;
-    color: #0a2a53;
+    color: #e2e8f0; /* Ajustado para texto claro */
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -24,7 +24,7 @@ header {
 
 header h1 {
     font-size: 1.5rem;
-    color: #1e789f;
+    color: #38bdf8; /* Ajustado para dar destaque */
 }
 
 nav a {
@@ -46,7 +46,7 @@ nav a:hover, nav a.active {
     flex: 1;
 }
 
-.hero h2, .content h2 {
+.hero h2, .content h2, .media-section h3 {
     font-size: 2rem;
     margin-bottom: 1rem;
     color: #f3f4f6;
@@ -59,8 +59,41 @@ nav a:hover, nav a.active {
     margin-bottom: 1.5rem;
 }
 
+/* Estilização para imagens e vídeos não quebrarem a tela */
+.infographic-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporção 16:9 */
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.caption {
+    font-size: 0.9rem;
+    color: #9ca3af;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
 .card {
-    background-color: #ccdffa;
+    background-color: #0f172a;
     border-left: 4px solid #38bdf8;
     padding: 1.5rem;
     border-radius: 6px;
@@ -88,14 +121,14 @@ nav a:hover, nav a.active {
 }
 
 .btn:hover {
-    background-color: #dae5eb;
+    background-color: #0369a1;
 }
 
 footer {
-    background-color: #799ce7;
+    background-color: #082563;
     text-align: center;
     padding: 1rem;
     font-size: 0.9rem;
-    color: #d2daea;
-    border-top: 1px solid #468ff5;
+    color: #9ca3af;
+    border-top: 1px solid #011c41;
 }
